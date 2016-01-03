@@ -3,7 +3,10 @@
 /*********************************************************************************/
 
 	body
-	{
+	{  
+		margin: 0;
+		padding: 0;
+		background: rgba(131, 155, 134, 0.83) none repeat scroll 0% 0%;
 	}
 
 	body,input,textarea,select
@@ -47,7 +50,7 @@
 	{
 	
 		background: transparent url("../images/header.jpg") no-repeat fixed center  center / cover;
-		background-color: rgba(99, 45, 45, 0.7);
+		background-color: #5c3b3b; /*rgba(99, 45, 45, 0.7); */
 		padding: 16em 0em 12em;
 	}
 	
@@ -78,7 +81,7 @@
 /*********************************************************************************/
 
 #aboutme {
-	margin: 0;
+	margin-top: 10%;
  padding: 0;
 	box-sizing: border-box;
  -moz-box-sizing: border-box;
