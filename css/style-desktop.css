@@ -203,8 +203,21 @@
 	
 }
 
+.wrapper{
+	position:relative;
+	
+	width: 200px;
+	height:auto;
+	bottom:5px;
+	text-align: center;
+	color:#fff;
+	font-family: 'Orbitron';
+	top:5px;
+	
+}
+
 #vbar {
-	position:absolute;
+	position:relative;
 	width: 60px;
 	height: 40px;
 	background-color: #f93737;
