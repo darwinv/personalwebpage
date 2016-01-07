@@ -205,7 +205,8 @@
 
 .wrapper{
 	position:relative;
-	
+	margin-left:auto;
+	margin-right:auto;
 	width: 200px;
 	height:auto;
 	bottom:5px;
@@ -215,13 +216,36 @@
 	top:5px;
 	
 }
-
-#vbar {
+/* Clase que rodea a la barra de progreso */
+.barcontent{
 	position:relative;
-	width: 60px;
+	background-color: rgba(174, 182, 172, 0.9);
+	width: 80px;
+	height: 100px;
+	/*margin: 30px 10px 0px 80px;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+}
+/* Barras de progresos*/
+#vbar {
+	
+	width: 80px;
+	height: 10px;
+	background-color: #1B254B;
+	/*margin: 30px 10px 0px 80px;*/
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#vbar2 {
+
+	width: 80px;
 	height: 40px;
-	background-color: #f93737;
-	margin: 30px 10px 0px 80px;
+	background-color: #1B254B;
+	/*margin: 30px 10px 0px 80px;*/
+	margin-left:auto;
+	margin-right:auto;
 }
 
 /*#vertgraph {                    
