@@ -3,7 +3,7 @@
 /*********************************************************************************/
 
 	body
-	{  
+	{
 		margin: 0;
 		padding: 0;
 		background: rgba(134, 136, 159, 0.5) none repeat scroll 0% 0%;
@@ -17,7 +17,7 @@
 	{
 		margin-bottom: 1.6em;
 	}
-	
+
 		header h2
 		{
 			font-size: 3.4em;
@@ -48,12 +48,12 @@
 
 	#main
 	{
-	
+
 		background: transparent url("../images/header.jpg") no-repeat fixed center  center / cover;
 		background-color: #5c3b3b; /*rgba(99, 45, 45, 0.7); */
 		padding: 16em 0em 12em;
 	}
-	
+
 	#main h1
 	{
 		font-size:250%;
@@ -62,9 +62,9 @@
 		font-family: 'Orbitron';
 		z-index: 1;
 		color:white;
-		
+
 	}
-	
+
 	.homepage #content header h2
 	{
 		padding: 0.70em 0em;
@@ -81,10 +81,10 @@
 /*********************************************************************************/
 
 #aboutme {
-	margin-top: 10%;
- padding: 0;
-	box-sizing: border-box;
- -moz-box-sizing: border-box;
+margin-top: 10%;
+padding: 0;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
  height:600px;
  overflow: auto;
 }
@@ -200,7 +200,7 @@
 	position: relative;
 	text-align:center;
 	font-family: 'Orbitron';
-	
+
 }
 
 .wrapper{
@@ -214,7 +214,7 @@
 	color:#fff;
 	font-family: 'Orbitron';
 	top:5px;
-	
+
 }
 /* Clase que rodea a la barra de progreso */
 .barcontent{
@@ -229,7 +229,7 @@
 }
 /* Barras de progresos*/
 #vbar {
-	
+
 	width: 80px;
 	height: 20px;
 	background-color: #1B254B;
@@ -270,7 +270,7 @@
 #vbar5 {
 
 	width: 80px;
-	height: 15px;
+	height: 48px;
 	background-color: #1B254B;
 	/*margin: 30px 10px 0px 80px;*/
 	margin-left:auto;
@@ -287,59 +287,42 @@
 	margin-right:auto;
 }
 
+/*********************************************************************************/
+/* Portafolio                                                                        */
+/*********************************************************************************/
 
-/*#vertgraph {                    
-        width: 378px; 
-        height: 207px; 
-        position: relative; 
-        background: url("../images/g_backbar.gif") no-repeat; 
-    }
-    #vertgraph ul { 
-        width: 378px; 
-        height: 207px; 
-        margin: 0; 
-        padding: 0; 
-    }
-    #vertgraph ul li {  
-        position: absolute; 
-        width: 28px; 
-        height: 160px; 
-        bottom: 34px; 
-        padding: 0 !important; 
-        margin: 0 !important; 
-        background: url("../images/g_colorbar3.jpg") no-repeat !important;
-        text-align: center; 
-        font-weight: bold; 
-        color: white; 
-        line-height: 2.5em;
-    }
+#portafolio{
+	height:50%;
+margin-top: 10%;
+ padding: 0;
+}
 
-    #vertgraph li.critical { left: 24px; background-position: 0px bottom !important; }
-    #vertgraph li.high { left: 101px; background-position: -28px bottom !important; }
-    #vertgraph li.medium { left: 176px; background-position: -56px bottom !important; }
-    #vertgraph li.low { left: 251px; background-position: -84px bottom !important; }
-    #vertgraph li.info { left: 327px; background-position: -112px bottom !important; }
-    
-    */
-
+#portafolio h1{
+	text-align: center;
+	margin-bottom: 8%;
+}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
-	
-	#footer
-	{
-		
-	}
-	
+
+#footer
+{
+
+}
+
+footer p
+{
+	text-align: center
+}
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
-	
+
 	#featured
 	{
 		padding: 6em 0em;
 	}
-	
+
 	#featured h3
 	{
 		padding: 1.5em 0em;
@@ -350,17 +333,17 @@
 	{
 		margin-bottom: 3em;
 	}
-	
+
 	#featured p
 	{
 		line-height: 2em;
 		font-size: 1.2em;
 	}
-	
+
 /*********************************************************************************/
 /* Tweet                                                                         */
 /*********************************************************************************/
-	
+
 	#tweet
 	{
 		padding: 6em 0em;
@@ -372,4 +355,4 @@
 		padding: 1em 4em;
 		line-height: 1.5em;
 		font-size: 1.8em;
-	}	
+	}
